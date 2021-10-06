@@ -1,0 +1,25 @@
+CONTESTO: siamo sul marciapiede di fronte ad un incrocio con le strisce.
+
+1) controllare se c'è un semaforo 
+
+    1a sì    1b no
+
+    1a TRUE 
+       1a1 verde 
+           attraverso
+       1a2 rosso o giallo
+           sto fermo
+
+    1b FALSE 
+       1b1 controllare presenza traffico
+            2b1 TRUE > sto fermo
+                FALSE > attraverso
+
+
+CONTESTO: siamo sul marciapiede di fronte ad un incrocio.
+
+1) guardo dal altro lato della strada
+2) controlle se ci sono le strisce
+3) controllare se c'è un semaforo
+4) controllare il traffico
+5) attraversare le strisce
